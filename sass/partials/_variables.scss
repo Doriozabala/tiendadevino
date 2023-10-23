@@ -1,0 +1,12 @@
+/*variables*/
+$negro:#000000;
+$blanco:#ffffff;
+$gris:#D5DBDB;
+
+//mixin//
+@mixin tamanomix ($var1, $var2 ){
+    width:$var1 ;
+height:$var2 ;
+}
+
+.tamanomix {@include tamanomix(450px,450px )}

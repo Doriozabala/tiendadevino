@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--BS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" 
+    crossorigin="anonymous">
+    <title>Vinos</title>
+    <!--animate-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!--aos-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--fotorama-->
+    <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="./css/stylo.css">
+</head>
+<body class="bgcolor margenbody">
+    <header class="headerfijo">
+        <nav class="navbar navbar-expand-lg navheader border border-bottom-2">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"><img src="./images/logo.fw.png" class="logotamano"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse navheader" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="./pages/tienda.html">Tienda</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="./pages/productos.html">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="./pages/promociones.html">Promociones</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="./pages/contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            
+          </nav>
+    </header>
+       
+       
+        <div>
+            <h1 class="text-center h1 margenh1">
+                Tienda de Vino 
+            </h1>
+            <h1 class="text-center h1 animate__animated animate__pulse animate__delay-2s animate__infinite">
+              Tienda de Vino 
+          </h1>
+            <div class="text-center h2">
+              <h3>Bienvenidos!
+                  Estamos orgullosos de ofrecerles una amplia selección de las mejores bodegas.
+              </h3></div>
+        </div>
+        
+        
+
+        <div id="carouselExampleAutoplaying" class="carousel slide d-flex " data-bs-ride="carousel">
+          <div class="carousel-inner ">
+            <div class="carousel-item active">
+              <img src="./images/carousel/1.fw.png"  class="d-block w-70" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/carousel/2.fw.png" class="d-block w-70" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/carousel/3.fw.png" class="d-block w-70" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      
+         <div>
+            <div class="container-md">100% wide until medium breakpoint</div>
+         </div>
+
+         <main>
+          
+         <div class="row margenbody margenizq ">
+            <div class="col-sm-6 mb-1 mb-sm-0 ">
+              <div class="card bg-black">
+                <img src="./images/inicio/Mix1.fw.png" data-aos="fade-right" class="tamanomix">
+                <div class="card-body">
+                  <h5 class="card-title text-white textocard">Compra Online</h5>
+                  <p class="card-text text-white">En nuestro sitio, podrá navegar por las distintas categorías de Vinos, realizar las compras deseadas, consultar, recibir asesoramiento y conocer más sobre todos los productos.</p>
+                  <a href="tienda.html" class="btn btn-primary">Tienda</a>
+                </div>
+              </div>
+            </div>
+          
+            <div class="col-sm-6 margenbody">
+              <div class="card bg-black">
+                <img src="./images/inicio/Mix2.fw.png" data-aos="fade-left"class="tamanomix ">
+                <div class="card-body">
+                  <h5 class="card-title text-white">Catálogo de Vinos</h5>
+                  <p class="card-text text-white textocard">En nuestro sitio, podrá navegar por las distintas categorías de Vinos, realizar las compras
+                    deseadas, consultar, recibir asesoramiento y conocer más sobre todos los productos.</p>
+                  <a href="tienda.html" class="btn btn-primary">Tienda</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+        </main>
+
+
+        <main>
+          <section class="mercadopago">
+          <div class="card mb-3 " style="max-width: 540px">
+            <div class="row g-0 ">
+              <div class="col-md-4">
+                <img src="./images/inicio/mercadopago.fw.png" width="250px" height="250px" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8 ">
+                <div class="card-body">
+                  <h5 class="card-title">Pagos y Entregas</h5>
+                  <p class="card-text">PAGOS Y ENTREGAS
+                    Brindamos flexibilidad en los pagos online. Aceptamos Tarjetas de Crédito y Débito, MercadoPago,  y transferencias bancarias. También se puede abonar en efectivo al retirar..</p>
+                  <p class="card-text"><small class="text-body-secondary"></small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        </main>
+    
+
+    <!--JS BS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" 
+    +integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" 
+    crossorigin="anonymous"></script>
+
+    <footer>
+      <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <a class="navbar-brand"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse navfooter" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="./pages/tienda.html">Tienda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="./pages/productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="./pages/promociones.html">Promociones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="./pages/contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <section class="logosredes">
+        <div class="whatsapp"><a href="web.whatsapp.com" target="_blank"><img src="./images/whasapp.png" width="80px" height="80px" ></a>
+            </div>
+            <div>
+              <a href="mailto:info@vino.com">info@vino.com.ar</a>
+            </div>    
+            <div>
+              <h4>Tel: 11.6564-8888</h4>
+            </div>
+        <div class="instagram"><a href="instagram.com" target="_blank"><img src="./images/Instagram.fw.png" width="80px" height="80px"></a>
+            </div>
+        
+          </section>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+</body>
+
+</html>
